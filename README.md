@@ -3,11 +3,11 @@ How to run project
 
 1 Go to root folder of project and do npm install
 
-2  Make changes in your mongo db url and replica set in .env file
+2  Make sure you mong db instance is running with replica set and  changes value of MONGODB_URI url and replica set in .env file
 
 3 Run-> node app.js
 
-4 Call the api url ' http://127.0.0.1:3000/api/orders' from postman using below sample payload 
+4 Call the api endpoint ' http://127.0.0.1:3000/api/orders' from postman using below sample payload 
 
 {
   "customerName": "Test Atomicity",
