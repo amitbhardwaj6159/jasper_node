@@ -1,7 +1,7 @@
 
 How to run project
 
-1 Go to root director of project and do npm install
+1 Go to root folder of project and do npm install
 
 2  Make changes in your mongo db url and replica set in .env file
 
